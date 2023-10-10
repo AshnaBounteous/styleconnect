@@ -1,0 +1,51 @@
+$primary-color: #000000;
+.overview-wrapper {
+  background: #efefef;
+  padding: 50px 20px;
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    .count {
+      font-size: 36px;
+    }
+  }
+}
+
+.profile-photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.todo-list div:last-child {
+  border-bottom: 0 !important;
+}
+#taskAccordion .accordion-item {
+  background-color: #efefef;
+  .accordion-header {
+    .new-task {
+      color: #b3b3b3;
+      padding: 10px 20px 0px;
+    }
+  }
+  .accordion-button {
+    background: #efefef;
+    box-shadow: none;
+    &:active,
+    &:hover,
+    &:focus {
+      box-shadow: none;
+      color: $primary-color;
+    }
+  }
+}
+
+.btn-custom-secondary {
+  &:active,
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
